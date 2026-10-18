@@ -1,0 +1,21 @@
+target/
+data/
+uploads/
+.idea/
+*.iml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-prod.properties
+
+# Logs and local database files
+*.log
+*.mv.db
+*.trace.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
